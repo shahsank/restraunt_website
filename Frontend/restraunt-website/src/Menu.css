@@ -1,0 +1,115 @@
+.bg-img {
+  background-image: url("https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940%22");
+  background-attachment: fixed;
+  border: 10px solid black;
+}
+.f-name {
+  font-family: "Playfair Display", serif;
+  font-size: 100%;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.f-desc {
+  font-family: "Cookie", cursive;
+  font-size: 80%;
+  font-weight: 550;
+  color: rgb(99, 94, 94);
+}
+.f-price {
+  font-family: "Playfair Display", serif;
+  font-size: 100%;
+  color: rgb(8, 8, 8);
+  text-transform: uppercase;
+}
+
+.menu-top{
+  background-image: url("http://www.pixel-industry.com/html/royal-plate/img/page-titles/page-title-2.jpg");
+}
+
+.type-bg-img{
+  background-image: url("https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+}
+
+.bg-img-drinks{
+  background-image: url("http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img11.jpg");
+  background-attachment: fixed;
+}
+
+.food-title h1{
+    /* font-family: "Charm", cursive; */
+    font-family: 'Lobster Two', cursive;
+    /* font-family: 'Parisienne', cursive; */
+    /* font-family: "Cookie", cursive; */
+    font-size: 200%;
+    font-weight: 550;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+}
+.food-title{
+  transition: transform .3s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-center;
+}
+.food-title:hover {
+  transform: scale(1.25);
+}
+
+.zoomout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .3s;
+}
+.zoomout:hover {
+  transform: scale(0.95);
+}
+
+.style-2 h4{
+  font-family: 'Federo', sans-serif;
+  font-size: 250%;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.menu-style-2 h5{
+  font-family: 'Cambo', serif;
+  font-size: 200%;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 5%;
+}
+.menu-item-title{
+  font-family: "Playfair Display", serif;
+  font-size: 100%;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.menu-item-description{
+  font-family: "Cookie", cursive;
+  font-size: 110%;
+  font-weight: 550;
+  color: rgb(99, 94, 94);
+  text-decoration: underline;
+}
+.menu-item-price{
+  font-family: "Playfair Display", serif;
+    font-size: 120%;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+}
+.frame-new{
+  border: 10px solid rgb(167, 126, 52);
+  padding: 10%;
+}
+.custom-img-background {
+  background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}

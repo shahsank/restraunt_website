@@ -1,0 +1,72 @@
+.App {
+  display: flex;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: transparent;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+}
+
+.custom-img-background {
+  background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80%22");
+}
+
+.frame-box {
+  border: 15px solid black;
+  box-shadow: rgba(0, 0, 0, 0.3);
+  padding: 15%;
+}
+
+.custom-heading.style-1 h1 {
+  font-family: "Montez", cursive;
+  font-size: 35px;
+  color: rgb(168, 129, 57);
+}
+h1 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.custom-heading.style-1 h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  color: rgb(8, 8, 8);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.custom-heading.style-1 p {
+  font-family: "Parisienne", cursive;
+  font-size: 150%;
+  color: rgb(8, 8, 8);
+}
+#yell {
+  font-family: "Montez", cursive;
+  font-size: 40px;
+  color: rgb(168, 129, 57);
+}
+#whi {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.d {
+  height: 700px;
+  background-image: url("http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto ;
+}
+
+#footer-wrapper {
+  background-image: url("https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1366&w=768%22");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
